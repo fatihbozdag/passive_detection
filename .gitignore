@@ -25,17 +25,54 @@ wheels/
 
 # Virtual Environment
 venv/
-env/
 ENV/
+env/
+.env/
+.venv/
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.coverage.*
+
+# Documentation
+docs/_build/
+site/
+
+# Data
+*.csv
+*.json
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.xlsx
+*.xls
+
+# Logs
+*.log
+logs/
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Rye
+.rye/
 
 # OS
-.DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
@@ -47,6 +84,5 @@ Thumbs.db
 analysis_results/
 results_*/
 icle_analysis/
-*.csv
 *.png
 *.json
